@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:600");
+@font-face {
+  font-family: "Bebas Neue Book";
+  src: url("fonts/BebasNeueBook.otf"); }
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url("fonts/BebasNeueBold.otf"); }
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("fonts/BebasNeueRegular.otf"); }
+.header {
+  background-image: url(../img/header-bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 224px 131px 224px; }
+  .header__wrapper {
+    max-width: 1920px;
+    margin: 0 auto; }
+  .header__wrapper-bottom {
+    display: flex; }
+  .header__nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 84px; }
+
+.lang-share {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.logo {
+  display: flex;
+  background-color: #ffffff;
+  width: 514px;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 35px 47px;
+  border-bottom-left-radius: 35px 47px; }
+  .logo__link {
+    margin: 0 20px; }
+
+.lang-share {
+  padding: 10px; }
+  .lang-share__lang {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    border-top: 2px solid #414042;
+    border-bottom: 2px solid #414042;
+    border-left: 2px solid #b8b8b8;
+    border-right: 2px solid #b8b8b8;
+    text-decoration: none;
+    color: #424242;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase; }
+  .lang-share__share {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    background-color: #04b8e5;
+    border: 2px solid #04b8e5;
+    margin-left: 8px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px; }
+
+.header-title {
+  position: relative; }
+  .header-title__first {
+    color: #414042;
+    font-family: "Bebas Neue Book", sans-serif;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 61.5px;
+    text-transform: uppercase;
+    padding-left: 10%;
+    margin-bottom: 35px; }
+  .header-title__second {
+    font-family: "Bebas Neue Bold", sans-serif;
+    color: #3a3a3a;
+    font-size: 122px;
+    font-weight: 400;
+    line-height: 140.55px;
+    text-transform: uppercase;
+    letter-spacing: -1.5px; }
+  .header-title__img-guy {
+    position: absolute;
+    top: -164px;
+    left: -196px; }
+  .header-title__img-goit {
+    position: absolute;
+    top: 76px;
+    right: -153px; }
+  .header-title__third {
+    color: #414042;
+    font-family: "Bebas Neue Book", sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 64.66px;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+    padding-left: 20%;
+    margin-bottom: 25px; }
+  .header-title__fourth {
+    color: #04b8e5;
+    font-family: "Bebas Neue Bold", sans-serif;
+    font-size: 250px;
+    font-weight: 400;
+    line-height: 260px;
+    text-transform: uppercase; }
+
+.header-desc__item {
+  color: #2e2e2e;
+  font-family: "Bebas Neue Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: -1.5px; }
+
+.header-desc__item--last {
+  margin-bottom: 40px; }
+
+.header__img {
+  width: 40%;
+  align-self: center; }
+
+.header-links__item {
+  display: inline-block;
+  width: 261px;
+  height: 52px;
+  box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.22);
+  background-color: #04b8e5;
+  text-decoration: none;
+  text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 10%; }
+
+/*# sourceMappingURL=main.css.map */
